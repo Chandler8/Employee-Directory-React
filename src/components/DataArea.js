@@ -81,7 +81,8 @@ const DataArea = () => {
     const filter = event.target.value;
     const filteredList = developerState.users.filter(item => {
       let values = item.name.first.toLowerCase() + " " + item.name.last.toLowerCase();
-      console.log(filter, values)
+      // To render all the results in the console (mainly for testing purposes)
+      // console.log(filter, values)
     if(values.indexOf(filter.toLowerCase()) !== -1){
       return item
     };
@@ -92,7 +93,8 @@ const DataArea = () => {
 
   useEffect(() => {
     API.getUsers().then(results => {
-      console.log(results.data.results);
+      // To render all the results in the console (mainly for testing purposes)
+      // console.log(results.data.results);
       setDeveloperState({
         ...developerState,
         users: results.data.results,
