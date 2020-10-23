@@ -1,0 +1,20 @@
+.datatable .col {
+    cursor: pointer;
+    background-color:skyblue;
+    opacity: 80%;
+  }
+  
+  .datatable .col .pointer:after {
+    font-size: 80%;
+    content: "";
+    margin-right: 18px;
+  }
+  
+  .datatable .col .pointer:hover:after {
+    font-size: 80%;
+    margin-right: 0;
+  }
+  
+  /* * {
+    background-color: slategray;
+  } */
