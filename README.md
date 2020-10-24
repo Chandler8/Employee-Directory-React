@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-black.svg)
 
-This application is meant for streamlining the process of maintaining an employee database for communication purposes. Users can sort through hundreds of employees by name, phone number, email, or date of birth. By either typing in the search bar or clicking on the column header, users can filter through all of the employees listed in the database.This project features a simple and sleek UI that is meant to highlight the UX involved. All data is being pulled and populated thanks to the [randomuser.me](https://randomuser.me/) API. This application utilizes technologies such as; React.js, HTML, CSS, JavaScript, and others. To view the deployed application, please click on the following link:
+This application is meant for streamlining the process of maintaining an employee database for communication purposes. Users can sort through hundreds of employees by name, phone number, email, or date of birth. By either typing in the search bar or clicking on the column header, users can filter through all of the employees listed in the database.This project features a simple and sleek UI that is meant to highlight the UX involved. All data is being pulled and populated thanks to the [randomuser.me](https://randomuser.me/) API. This application utilizes technologies such as; React.js, HTML, CSS, JavaScript, and others. To view the deployed application, please click on the following link: https://chandler8.github.io/Employee-Directory-React/
 
 ## Features
 
